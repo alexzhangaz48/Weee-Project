@@ -1,38 +1,36 @@
 ---
-title: Hello World
+title: How to write Hexo blog
+date: 2023-12-23  
+tags: [Hexo]  # 文章标签，按需添加
 ---
-Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
+# Hexo
+## What is Hexo:
+Hexo is a framework to help you to build a website. It is very convenient for building a blog.
+## How to modify Hexo:
+To modify Hexo, first you need to find the .md file (Markdown file). Usually it should be under the source\_posts folder.
 
-## Quick Start
+Here are some syntax of Markdown:
 
-### Create a new post
-
-``` bash
-$ hexo new "My New Post"
+Basic information:
+```Markdown
+---
+title: Build your blog with Hexo + Github +Netlify
+date: 2023-12-23  # The date of this artical, yyyy-mm-dd
+tags: [Hexo, netlify,Github]  # tags of this artical
+---
 ```
-
-More info: [Writing](https://hexo.io/docs/writing.html)
-
-### Run server
-
-``` bash
-$ hexo server
+Title:
+```Markdown
+# Large title
+## Midium title
+### Small title
 ```
-
-More info: [Server](https://hexo.io/docs/server.html)
-
-### Generate static files
-
-``` bash
-$ hexo generate
+Add link:
+```Markdown
+Welcome to [Hexo](https://hexo.io/)!
 ```
-
-More info: [Generating](https://hexo.io/docs/generating.html)
-
-### Deploy to remote sites
-
-``` bash
-$ hexo deploy
+Add code:
+````Markdown
 ```
-
-More info: [Deployment](https://hexo.io/docs/one-command-deployment.html)
+#add code in the middle
+``` ````
